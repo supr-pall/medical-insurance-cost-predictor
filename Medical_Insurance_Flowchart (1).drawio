@@ -1,0 +1,84 @@
+
+<mxfile host="app.diagrams.net">
+  <diagram id="MedicalInsuranceCostPrediction" name="Medical Insurance Cost Prediction">
+    <mxGraphModel dx="1050" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Input Phase -->
+        <mxCell id="2" value="Start" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Load Dataset" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Data Overview" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Preprocessing Phase -->
+        <mxCell id="5" value="Data Cleaning" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Feature Selection" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Encode Categorical" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Scale Numeric" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Train/Test Split" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Model Training Phase -->
+        <mxCell id="10" value="Linear Regression" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Ridge Regression" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Lasso Regression" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Random Forest" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Gradient Boosting" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="260" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Select Best Model" style="rhombus;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="260" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Evaluation Phase -->
+        <mxCell id="16" value="Evaluate on Test Data" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Metrics" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Residual Analysis" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Output Phase -->
+        <mxCell id="19" value="Save Model" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Predict Charges" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Display Results" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="End" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="100" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
